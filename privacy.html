@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — AI Commenter for LinkedIn</title>
+  <meta name="description" content="Privacy policy of the AI Commenter for LinkedIn Chrome extension." />
+  <style>
+    :root {
+      --bg: #f5f6f8;
+      --surface: #ffffff;
+      --text: #0f1419;
+      --muted: #4a5568;
+      --border: #e2e5ea;
+      --accent: #4f6ef7;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1115;
+        --surface: #171a21;
+        --text: #e6e8ec;
+        --muted: #a0a8b5;
+        --border: #2a2f3a;
+        --accent: #8fa3ff;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+    }
+    main {
+      max-width: 760px;
+      margin: 40px auto;
+      padding: 32px 28px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+    h1 { font-size: 1.8rem; margin: 0 0 4px; letter-spacing: -0.3px; }
+    h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+    p, li { color: var(--muted); }
+    strong { color: var(--text); }
+    a { color: var(--accent); }
+    ul { padding-left: 22px; }
+    .updated { font-size: 0.9rem; margin-bottom: 24px; }
+    .summary {
+      border-left: 3px solid var(--accent);
+      padding: 4px 16px;
+      margin: 20px 0;
+    }
+    footer { margin-top: 40px; font-size: 0.85rem; color: var(--muted); }
+    @media (max-width: 600px) {
+      main { margin: 0; border-radius: 0; border: none; padding: 24px 16px; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="updated">AI Commenter for LinkedIn — Last updated: November 8, 2026</p>
+
+  <div class="summary">
+    <p><strong>In short:</strong> the extension has no server and no analytics. Your API key and settings stay in your browser. When you click the AI button, the text of that post is sent only to the AI provider you selected, using your own API key, to generate a draft comment. The developer never receives, stores or sells your data.</p>
+  </div>
+
+  <h2>1. Who we are</h2>
+  <p>AI Commenter for LinkedIn ("the extension") is a Chrome extension developed by an independent developer based in France. It helps users draft comments on LinkedIn posts using their own AI provider API key. The extension is not affiliated with, endorsed by or sponsored by LinkedIn.</p>
+
+  <h2>2. Data the extension handles</h2>
+  <ul>
+    <li><strong>Your API key</strong> (Google Gemini, OpenAI or Anthropic), which you enter in the extension settings.</li>
+    <li><strong>Your settings</strong>: selected AI provider, tone, length, response language, interface language and optional custom instructions.</li>
+    <li><strong>The text of a LinkedIn post</strong>, read only when you click the extension's AI button under that post.</li>
+  </ul>
+  <p>The extension does not collect your name, email address, LinkedIn profile, browsing history, location, contacts or any other personal information. It does not read posts you have not clicked on.</p>
+
+  <h2>3. How the data is used and where it goes</h2>
+  <ul>
+    <li><strong>API key and settings</strong> are stored locally on your device using Chrome's storage (<code>chrome.storage.local</code>). They are never sent to the developer.</li>
+    <li><strong>Post text</strong> is sent, together with your API key, directly from your browser to the single AI provider you selected, for the sole purpose of generating a draft comment. The generated draft is inserted into LinkedIn's comment editor. Nothing is ever published automatically: you review, edit and publish the comment yourself.</li>
+  </ul>
+  <p>The extension has no backend server, uses no analytics or tracking tools, and contains no advertising.</p>
+
+  <h2>4. Third-party AI providers</h2>
+  <p>When you use the extension, the data sent to your chosen provider is processed under that provider's own terms and privacy policy, linked to the API key you created with them. Depending on your account type or plan, a provider may handle your data differently (for example, some free tiers may use inputs to improve their services). Please review the policy of the provider you use:</p>
+  <ul>
+    <li>Google (Gemini API): <a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a></li>
+    <li>OpenAI: <a href="https://openai.com/policies/privacy-policy" rel="noopener">openai.com/policies/privacy-policy</a></li>
+    <li>Anthropic: <a href="https://www.anthropic.com/legal/privacy" rel="noopener">anthropic.com/legal/privacy</a></li>
+  </ul>
+
+  <h2>5. Data sharing and sale</h2>
+  <p>The developer does not sell, rent or share user data with anyone. Data is only transmitted to the AI provider you selected, as described above, because it is required for the extension's single purpose.</p>
+
+  <h2>6. Chrome Web Store Limited Use</h2>
+  <p>The use of information received by this extension complies with the <a href="https://developer.chrome.com/docs/webstore/program-policies/limited-use" rel="noopener">Chrome Web Store User Data Policy</a>, including the Limited Use requirements. Data is used only to provide the extension's single purpose (generating draft comments), is not transferred for any other purpose, is not used for advertising, and is not used to determine creditworthiness or for lending purposes.</p>
+
+  <h2>7. Data retention and deletion</h2>
+  <p>Your API key and settings remain on your device until you delete them. You can delete your API key at any time with the "Delete" button in the extension settings. Uninstalling the extension removes all locally stored data. The developer holds no copy of your data, so there is nothing to delete on our side.</p>
+
+  <h2>8. Security</h2>
+  <p>Requests to AI providers are made over encrypted HTTPS connections. Your API key is stored in your browser's local extension storage; keep your device and browser secure, and revoke your key from your provider's dashboard if you believe it has been exposed.</p>
+
+  <h2>9. Your rights</h2>
+  <p>Since the developer does not collect or store your personal data, there is no personal data held by the developer to access, correct or delete. For data processed by your AI provider, please contact that provider directly. If you have any question, you can contact us using the address below.</p>
+
+  <h2>10. Children</h2>
+  <p>The extension is not intended for children under 16.</p>
+
+  <h2>11. Changes to this policy</h2>
+  <p>If the extension's data practices change (for example, if a license verification system is added), this page will be updated and the date at the top will change before the new version is published.</p>
+
+  <h2>12. Contact</h2>
+  <p>Questions about this policy: <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a></p>
+
+  <footer>© 2026 AI Commenter for LinkedIn. Not affiliated with LinkedIn Corporation.</footer>
+</main>
+</body>
+</html>
